@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 import ipinfo
-import simplekml  # Importamos la librería 'simplekml'
+import simplekml
 
 # Función para obtener ubicación con 'ipinfo'
 
