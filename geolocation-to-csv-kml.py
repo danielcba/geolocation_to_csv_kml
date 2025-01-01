@@ -50,15 +50,13 @@ with open('geo.csv') as csvfile:
         # Agregar el punto al archivo KML
         kml.newpoint(name=ciudad, coords=[(longitud, latitud)])
 
-# Path to the CSV file
+# Ruta al archivo CSV
 csv_path = 'ipinfo_resultados.csv'
 
+# Check si el CSV existe
 if os.path.exists(csv_path):
-    # Read existing CSV
     existing_df = pd.read_csv(csv_path)
-    # Concatenate existing data with new data
     df_ipinfo = pd.concat([existing_df, df_ipinfo], ignore_index=True)
-    # Remove duplicates if needed
     df_ipinfo = df_ipinfo.drop_duplicates()
 
 # Guardar el DataFrames en archivo CSV
