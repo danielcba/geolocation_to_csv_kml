@@ -45,7 +45,7 @@ pip install pandas ipinfo simplekml
    - Replace the placeholder `access_token` in the script with your `ipinfo` access token. If you don't have one, you can obtain it by creating an account on [ipinfo.io](https://ipinfo.io/).
    - Execute the Python script:
    ```bash
-   python script.py
+   python geolocation_to_csv_kml.py
    ```
 
 3. **Outputs**:
