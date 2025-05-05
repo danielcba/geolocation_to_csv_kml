@@ -72,4 +72,4 @@ El archivo KML (`resultados.kml`) incluirá marcadores con la ubicación geográ
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más información.
+Este proyecto está bajo la licencia MIT. Consulta el archivo [MIT License](LICENSE). para más información.
